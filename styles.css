@@ -1,0 +1,48 @@
+
+* {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+}
+
+body {
+    margin: 0;
+    margin: 0;
+    font-family: "Playfair Dispay", serif;
+}
+
+.container{
+    margin: 0;
+    padding: 20px;
+    display: flex; 
+    align-content: stretch;
+    flex-wrap: nowrap;
+    column-gap: 20px;
+}
+
+.card1 .card2 .card3{
+    padding:20px;
+    margin: 10px; 
+   
+       
+}
+
+.card__img{
+   padding: 10px;
+   margin: 10px;
+   
+}
+
+.card__text {
+    padding: 0;
+    margin: 30px;
+    display: flex; 
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+}
+
